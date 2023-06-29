@@ -1,0 +1,30 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.input-container input:focus {
+  outline: 2px solid blue;
+  border-radius: 1px;
+}
+
+.list-container {
+  padding: 0 24px;
+  text-align: center;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.todo-container {
+  width: 120px;
+  height: 120px;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 12px 24px 24px 24px;
+  text-align: center;
+}
